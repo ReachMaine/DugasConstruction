@@ -1,4 +1,35 @@
 /* standard Reach styling of Oshin */
+// hide comments on posts
+.be-themes-comments,
+.post-meta.post-comments {
+	display: none;
+}
+// hide the 'posted in' category on blog posts
+.post-meta.post-category {
+	display: none;
+}
+// if hiding everything after author in post-meta, hide the separator
+.post-meta.post-author{
+	.post-meta-sep {
+		display: none;
+	}
+}
+// blog top & bottom padding (tatsu)
+// force to 30px
+.post-content-wrap {
+		.post-content {
+			.tatsu-section {
+				.tatsu-section-pad {
+					padding-top: 30px!important;
+					padding-bottom: 30px!important;
+				}
+			}
+		}
+}
+
+
+/* old stuff
+
 .title-module-wrap.page-title-module-custom {
 	padding: 10px 0px;
 	h1.page-title-custom{
@@ -17,10 +48,7 @@
 .tatsu-module {
   margin-bottom: 15px;
 }
-.page #comments {
-	padding-top: 0px!important;
-	padding-bottom: 0px!important;
-}
+*/
 // for IE, make image width 100% s.t. it doesnt get cut off.
 // not sure if just in column or not....
 .tatsu-column .tatsu-single-image img {
