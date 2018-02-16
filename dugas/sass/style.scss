@@ -24,7 +24,15 @@ Version: 1.2
 	padding-top: 45px;  // small at mobile in media
 	padding-bottom: 45px;
 }
+
+.wp-caption {
+	.wp-caption-text {
+		text-align: left;
+		line-height: 18px;
+	}
+}
 /** sidebar
+
 
 /** footer **/
 

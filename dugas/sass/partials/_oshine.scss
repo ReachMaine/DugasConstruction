@@ -1,4 +1,5 @@
 /* standard Reach styling of Oshin */
+// blog stuff...
 // hide comments on posts
 .be-themes-comments,
 .post-meta.post-comments {
@@ -14,6 +15,37 @@
 		display: none;
 	}
 }
+
+// archive layout, using style 2 = small thumbnail.
+// featured image at 1/3 (instead of 1/2)
+.style2-blog {
+	article {
+		//margin-bottom: 25px;
+		.post-thumb {
+		    width: 30%;
+		    margin-right: 3%;
+			}
+		.article-details {
+		    width: 66%;
+		}
+		.more-link {
+			display:  inline-block;
+		}
+		// tighten up block archive
+		.post-bottom-details {
+			nav {
+				margin-bottom: 0px!important;
+			}
+		}
+		.blog-separator {
+			.separator {
+					margin-top: 0px;
+			}
+		}
+	}
+}
+
+
 // blog top & bottom padding (tatsu)
 // force to 30px
 .post-content-wrap {
