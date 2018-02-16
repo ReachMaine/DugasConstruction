@@ -15,6 +15,13 @@
 				            	break;
 				        }
 						break; */
+						case 'oshin': {
+							switch ( $translated_text ) {
+									 case 'Category: ' : // remove Category: from front of blog archives.
+											 $translated_text =  '';
+											 break;
+							 }
+						} // end ohin
 					default:
 						/* switch ( $translated_text ) {
 				            case 'Category' :
