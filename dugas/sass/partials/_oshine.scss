@@ -59,28 +59,23 @@
 		}
 }
 
-
-/* old stuff
-
-.title-module-wrap.page-title-module-custom {
-	padding: 10px 0px;
-	h1.page-title-custom{
-		margin-bottom: 0px;
+.oshine-gallery-module  {
+	.portfolio {
+		.portfolio-container  {
+			.element { // hide the hover color & link button & icon on galleries
+				.thumb-bg   {
+					background-color: transparent!important;
+				}
+				.like-button-wrap,
+				.portfolio-overlay-icon {
+					display: none;
+				}
+			}
+		}
 	}
 }
-.left-sidebar-page,
-.right-sidebar-page,
-.no-sidebar-page .be-section-pad:first-child,
-.page-template-page-940-php #content,
-.no-sidebar-page #content-wrap,
-.portfolio-archives.no-sidebar-page #content-wrap {
-	padding-top: 40px;
-	padding-bottom: 40px;
-}
-.tatsu-module {
-  margin-bottom: 15px;
-}
-*/
+
+
 // for IE, make image width 100% s.t. it doesnt get cut off.
 // not sure if just in column or not....
 .tatsu-column .tatsu-single-image img {
